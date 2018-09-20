@@ -22,7 +22,7 @@
   "outputs": {
     "avsetId": {
       "type": "string",
-      "value": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('avsetName'))]"
+      "value": "[resourceId('Microsoft.Compute/availabilitySets', parameters('avsetName'))]"
     }
   }
 }
